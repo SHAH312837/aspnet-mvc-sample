@@ -18,6 +18,14 @@ namespace WebApplication1.Models
             Assert.That(expectedResult, Is.EqualTo(15));
         }
 
+//        [Test]
+//        public void ShouldSubTwoNumbers()
+//        {
+//            ICalculator sut = new Calculator();
+//            int expectedResult = sut.Sub(9, 8);
+//            Assert.That(expectedResult, Is.EqualTo(1));
+//        }
+
         [Test]
         public void ShouldMulTwoNumbers()
         {
